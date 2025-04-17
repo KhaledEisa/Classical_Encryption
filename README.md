@@ -23,8 +23,6 @@ A Python implementation of classical encryption ciphers with a modern GUI interf
 - [Usage](#usage)
 - [Project Structure](#project-structure)
 - [Limitations](#limitations)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
@@ -56,3 +54,26 @@ A Python implementation of classical encryption ciphers with a modern GUI interf
    git clone https://github.com/yourusername/classical-cryptography.git
    cd classical-cryptography
    ```
+## Usage
+
+Run the application:
+  python main.py
+
+## Project Structure
+
+├── encryptanddecrypt.py
+├── LICENSE
+└── README.md
+
+## Limitations
+
+⚠️ Not for real-world security
+These ciphers are educational tools only. Key weaknesses include:
+
+Caesar: Vulnerable to frequency analysis
+
+Hill: Requires invertible matrices
+
+Vernam: Needs perfect key management
+
+All are computationally trivial to break today
