@@ -62,7 +62,9 @@ Run the application:
 ## Project Structure
 
 ├── encryptanddecrypt.py
+
 ├── LICENSE
+
 └── README.md
 
 ## Limitations
